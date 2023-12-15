@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Sidebar 09</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style_menuLateral.css">
+  <link rel="stylesheet" href="css/bootstrap.min_.css">
+
+  <style>
+    /* Estilo personalizado para el botón del menú */
+    #sidebarCollapse {
+      font-size: 25px;
+      /* Ajusta el tamaño según tus necesidades */
+      cursor: pointer;
+      /* Cambia el cursor a una mano para indicar que es interactivo */
+      border: 1px solid white;
+      /* Borde del mismo color que el icono */
+      transition: box-shadow 0, 5 s;
+      /* Agrega transición para la sombra */
+      border-radius: 10px;
+      /* Bordes redondos */
+      width: 35px;
+      /* Ancho del botón */
+      height: 31px;
+      /* Altura del botón */
+      line-height: 30px;
+      /* Alineación vertical del icono */
+      text-align: center;
+      /* Alineación horizontal del icono */
+      color: white;
+    }
+
+    #sidebarCollapse:hover {
+      box-shadow: 0 0 10px rgb(250, 250, 250);
+      /* Agrega sombra al hacer hover */
+    }
+
+    .FondoLateralHeader {
+
+      background: #f64f59;
+      /* Fallback para navegadores que no admiten gradientes */
+      background: linear-gradient(-90deg, #f64f59 15%, #c471ed 60%, #12c2e9 100%);
+
+      background: linear-gradient(to right, #f44336, #2196f3);
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg FondoLateralHeader "><!--  -->
+
+    <div class="custom-menu"> <!-- ICONO MENU -->
+      <i class="fa fa-bars" aria-hidden="true" id="sidebarCollapse"></i>
+
+    </div>
+
+    <div class="container  ">
+      <!-- Logo y texto en el centro -->
+      <h2 class=" text-white font-weight-bold"
+        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-bottom: auto;">
+        MODULO ADMINISTRADOR</h2>
+      <div class="img_izipa_nav"></div>
+
+    </div>
+  </nav>
+   
+  
+    <div class="wrapper d-flex">
+      <nav id="sidebar"><!-- cambios icono y letra linea  -->
+
+        <div class="img bg-wrap text-center py-4" style="background-image: url(images/fonfoatento.png);">
+          <div class="user-logo">
+            <div class="img" style="background-image: url(images/JonathanAtento.jpg);">
+            </div>
+            <div class="img_atento_lateral"></div>
+            <h3 class="text-capitalize "
+              style="margin-top: 2%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ">
+              jonathan vera segura</h3>
+          </div>
+        </div>
+
+
+
+        <ul class="list-unstyled components ">
+          <li class="active">
+            <a><span class="fa fa-home mr-3" id="option1-tab" data-toggle="tab" href="#option1"></span> Inicio</a>
+          </li>
+
+          <li>
+            <a><span class="fa fa-id-card-o mr-3" id="option2-tab" data-toggle="tab" href="#option2"></span> Modulo</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-cubes mr-3"></span>Servicios</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-cog mr-3"></span> Configuracion</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-support mr-3"></span> Soporte</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-sign-out mr-3"></span> Salir</a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <!-- Page Content   p-4 p-md-5 pt-5-->
+      <div class="page-conten p-4 -md-5 pt-5 text-body">
+        <blockquote class="blockquote text-center ">
+          <p class="text-body">DISEÑO EN BOOSTRAP BOTON MENU OCULTANDO LA BARRA LATERAL ICONOS DESDE fontawesome TRANSICION EN
+            EL HEADER Y SIDEBAR FOTO DE MI PERSONA. </p>
+          <footer class="blockquote-footer">INICIO <cite title="Source Title">Jonathan vera segura</cite></footer>
+        </blockquote>
+        <br>
+     
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
